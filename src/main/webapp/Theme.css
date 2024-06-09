@@ -1,0 +1,63 @@
+
+body{
+text-align: center;
+background-image: url("image/back.jpg");
+}
+div{
+position: absolute;
+left:29%;
+border-style: solid;
+border-color: black;
+width:30%;
+padding:4%;
+font-size: 2vw;
+border-radius: 8%;
+background-image: url("image/page.jpeg");
+}
+.b{
+position: absolute;
+left:29%;
+border-style: solid;
+border-color: black;
+width:35%;
+padding:4%;
+font-size: 2vw;
+border-radius: 10%;
+background-image: url("image/page.jpeg");
+}
+
+img{
+height: 40%;
+width: 56%;
+
+}
+img:hover {
+	height: 80%;
+	width: 112%;
+}
+button,input[type=submit]{
+border-style: solid;
+                border-radius: 02vw;
+                padding: 1vw;
+                background-color: aqua;
+                display: inline-block;
+                width:7vw;
+}
+ button:hover{
+                background-color: antiquewhite;
+            }
+input[type=submit]:hover {
+	background-color: antiquewhite;
+}
+input[type=number]{
+position:relative;
+width: 17vw;
+}
+h1{
+position:relative;
+width:100%;
+background-color: black;
+color: white;
+font-size:3.4vw;
+text-align: center;
+}
